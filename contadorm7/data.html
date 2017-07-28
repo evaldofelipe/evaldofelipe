@@ -1,0 +1,31 @@
+<html>  
+<head>  
+<script language="javascript">  
+    function clickMe()  
+    {    
+        var hoje = new Date();  
+        var dataInformada = new Date(dataForm[2], dataForm[1]-1, dataForm[0]);  
+          
+        if ( hoje < dataInformada )  
+        {  
+            alert("Hoje [" + hoje + "] é ANTERIOR a data informada! [" + dataInformada + "]");  
+        }  
+        else if ( hoje.getDate() == dataInformada.getDate() )  
+        {  
+            alert("Hoje [" + hoje + "] é A MESMA DATA que a data informada! [" + dataInformada + "]");  
+        }  
+        else  
+        {  
+            alert("Hoje [" + hoje + "] é POSTERIOR a data informada! [" + dataInformada + "]");  
+        }  
+    }  
+</script>  
+</head>  
+<body>  
+<form>  
+<input type="text" name="dataDesativacao" id="dataDesativacao" value="10/05/2010">  
+<input type="button" onClick="clickMe()" value="click me">  
+</form>  
+</body>  
+</html>  
+</html>  
