@@ -8,14 +8,109 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="css/flipclock.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/flipclock.min.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/full-slider.css" rel="stylesheet">
 
 	<title>Contador</title>
+
+    <style type="text/css">
+                body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-image: url(../img/bg.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -o-background-size: 100% 100%, auto;
+            -moz-background-size: 100% 100%, auto;
+            -webkit-background-size: 100% 100%, auto;
+            background-size: 100% 100%, auto;
+            text-align: center;
+        }
+
+
+        .iframe{
+            border-color: transparent;
+            background:none transparent;
+            height: 100%;
+            margin-top: -40px;
+            width: 100%;
+            z-index: 100;
+            display: block;
+            position: absolute;
+        }
+
+        .hue{
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            }       
+
+        .oi{
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+           
+            }
+            
+            .content{
+                width: 900px;
+                text-align: center;
+            }
+        .barrinha{
+            
+            width: 700px;
+            margin-top: -80px;
+            margin-left:20%;
+        }
+
+        #cf {
+          position:relative;
+          height:281px;
+          width:450px;
+          margin:0 auto;
+        }
+
+        #cf img {
+          position:absolute;
+          left:0;
+          -webkit-transition: opacity 1s ease-in-out;
+          -moz-transition: opacity 1s ease-in-out;
+          -o-transition: opacity 1s ease-in-out;
+          transition: opacity 1s ease-in-out;
+        }
+
+        #cf img.top:hover {
+          opacity:0;
+        }
+
+        @keyframes cf3FadeInOut {
+          0% {
+          opacity:1;
+        }
+        45% {
+        opacity:1;
+        }
+        55% {
+        opacity:0;
+        }
+        100% {
+        opacity:0;
+        }
+        }
+
+        #cf3 img.top {
+        animation-name: cf3FadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: s;
+        animation-direction: alternate;
+        }
+
+    </style>
 
     
 	</head>
