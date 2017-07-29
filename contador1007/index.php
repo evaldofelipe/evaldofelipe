@@ -19,7 +19,7 @@
                 body {
             padding-top: 40px;
             padding-bottom: 40px;
-            background-image: url(../img/bg.jpg);
+            background-image: url(../contador1007/img/bg.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-attachment: fixed;
