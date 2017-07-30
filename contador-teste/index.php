@@ -201,9 +201,9 @@
 
 //--------------//
 
-    if ( q == 6 ) {
+    if ( q == 0 ) {
         console.log("ta no dia!");
-            if ((h >= 15) && (h <= 16)) { 
+            if ((h >= 00) && (h <= 01)) { 
                 console.log("ta na hora!")
                 
 

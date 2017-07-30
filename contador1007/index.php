@@ -201,9 +201,9 @@
 
 //--------------//
 
-    if ( q == 6 ) {
+    if ( q == 0 ) {
         console.log("ta no dia!");
-            if ((h >= 23) && (h <= 00)) { 
+            if ((h >= 00) && (h <= 01)) { 
                 console.log("ta na hora!")
                 
 
@@ -219,7 +219,7 @@
                 countdown: true
             });  
 
-            if (h == 23 ) {
+            if (h == 00 ) {
                 var start = 7200 - (m * 60);
             }else {
                 var start = 3600 - (m * 60);
