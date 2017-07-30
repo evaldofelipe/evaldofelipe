@@ -220,7 +220,7 @@
             });  
 
             if (h == 00 ) {
-                var start = 7200 - (m * 60);
+                var start = 3600 - (m * 60);
             }else {
                 var start = 3600 - (m * 60);
             }
