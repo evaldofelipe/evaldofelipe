@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/evaldofelipe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://evaldofelipe.com
+  * I am evaldofelipe (https://keybase.io/evaldofelipe) on keybase.
+  * I have a public key ASAK7dCvX88fmgQVJNDyRa_bzeJXN4VQeJpXEUG19Le8PAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200aedd0af5fcf1f9a041524d0f245afdbcde257378550789a571141b5f4b7bc3c0a",
+      "host": "keybase.io",
+      "kid": "01200aedd0af5fcf1f9a041524d0f245afdbcde257378550789a571141b5f4b7bc3c0a",
+      "uid": "c50407074ee4d1c49a761df50758c619",
+      "username": "evaldofelipe"
+    },
+    "merkle_root": {
+      "ctime": 1523283303,
+      "hash": "e74c4460f2e6a46cfccb6897657eeb8e3ddbb6a57be21954a8b9786f9c33db36a5dd6c8acdce24963609e3b06d2f1d079e47a10bc79277ce4cf9ba7e454863fe",
+      "hash_meta": "07766337b65d8c8a39b960995be1d10c923f951ed40dbbb640307751e8b552e9",
+      "seqno": 2358948
+    },
+    "service": {
+      "entropy": "CO0qsI/vsCT4rC5TzVg9DXqb",
+      "hostname": "evaldofelipe.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1523283315,
+  "expire_in": 504576000,
+  "prev": "24343d8a9e2993a424f3911efabf71ac9baf820d13111c93d4a9b000c7b712bc",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCu3Qr1/PH5oEFSTQ8kWv283iVzeFUHiaVxFBtfS3vDwKp3BheWxvYWTESpcCB8QgJDQ9ip4pk6Qk85Ee+r9xrJuvgg0TERyT1KmwAMe3ErzEIMoigK/4/PCX6X7qz5F/PD14dEkD6pbPrt/Fsfx7/oKXAgHCo3NpZ8RAeafsGpQye9rYH0CCr9m1MAJ9KHYAYNzxZXZU33oWHmcEfDoh3q06S0u3fY0j0wgMbAT/ULNIo2nYseS04SvdA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMwpem07b++keVA9x5Ng6xEv7uHlfjEcpCwAV+XGlexvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/evaldofelipe
+
+==================================================================
